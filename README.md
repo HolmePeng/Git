@@ -98,15 +98,27 @@ Git常用命令:
 
 推送修改: git push
 
-
 df  显示文件系统的总空间和可用空间	df /tmp
+
 du	查询磁盘使用情况	du -k subdir
+
 stty	显示或重置控制键定义	stty -a
+
 history	列出最近执行过的 几条命令及编号	history
+
 dbx	命令行界面调试工具	dbx a.out
 
+
+
+
+
 git show # 显示某次提交的内容 git show $id
+
 git co -- <file> # 抛弃工作区修改
+
 git reset <file> # 从暂存区恢复到工作文件
+
 git revert <$id> # 恢复某次提交的状态，恢复动作本身也创建次提交对象
+
 git diff <file> # 比较当前文件和暂存区文件差异 git diff
+
