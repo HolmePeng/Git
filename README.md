@@ -98,6 +98,14 @@ Git常用命令:
 
 推送修改: git push
 
+
+
+
+
+MAC 命令
+
+
+
 df  显示文件系统的总空间和可用空间	df /tmp
 
 du	查询磁盘使用情况	du -k subdir
@@ -109,6 +117,8 @@ history	列出最近执行过的 几条命令及编号	history
 dbx	命令行界面调试工具	dbx a.out
 
 
+
+GIT命令
 
 
 
